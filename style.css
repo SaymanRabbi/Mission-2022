@@ -24,15 +24,17 @@ body{
     
 }
 .side-bar{
-    height: 190px;
+    height: 180px;
     border-radius: 3px;
     border-left: 5px solid tomato;
     padding-left: 10px;
+    line-height: 55px;
 }
 .title{
     font-size: 70px;
     font-weight: 600;
     color: #1e272e;
+    margin-bottom: 63px;
 }
 .sub-title{
     font-size: 60px;
@@ -73,12 +75,17 @@ body{
 
 
 }
+.button:hover{
+    background-color: transparent;
+    color: black;
+    border: 2px solid tomato;
+}
 /* ------end hero section----- */
 /* -------start mission section------ */
 .Mission{
     width: 100%;
     height: 600px;
-    padding: 0px 120px 0px 120px;
+    padding: 0px 100px 0px 100px;
 }
 .center{
     text-align: center;
@@ -99,7 +106,7 @@ body{
 }
 .mossion-box-one{
     width: 30%;
-    padding-left: 10px;
+    box-shadow: 5px 7px 40px grey;
     background-color: #dff9fb;
     border-radius: 10px;
 }
@@ -110,6 +117,7 @@ body{
 }
 .mossion-box-tittle{
     padding-bottom: 10px;
+    color: #130f40;
 }
 .tow{
     background-color: #d1d8e0;
@@ -118,7 +126,16 @@ body{
     background-color: #ced6e0;
 }
 .mossion-box-text{
-    width: 95%;
+    width: 100%;
+    text-align: justify;
+    color: #636e72;
 }
-
+.mission-box-grab{
+    width: 100%;
+    padding: 0px 20px;
+}
+.title-sidebar{
+    border-bottom: 5px solid tomato;
+    border-radius: 5px;
+}
 /* -------end mission section------ */
