@@ -189,3 +189,103 @@ body{
     padding-top: 100px;
 }
 /* --------End global section--------- */
+
+/* ----------start contact us-------- */
+.contact-us{
+    width: 800px;
+    padding: 0px 100px 0px 100px;
+    width: 100%;
+   
+}
+.contact-us-d-flex{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.contact-left{
+    width: 45%;
+    height: 550px;
+    box-shadow: 5px 7px 40px grey;
+   padding: 20px 20px 0px 20px;
+}
+.contact-left img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+.contact-left h2{
+ font-size: 35px;
+ font-weight: 600;
+ color:#1e272e ;
+}
+.contact-left h3{
+    font-size: 30px;
+    font-weight: 600;
+    color:#2d3436 ;
+   }
+.contact-right{
+    width: 50%;
+    height: 550px;
+    box-shadow: 5px 7px 40px grey;
+    padding: 20px 20px 0px 20px;
+}
+.contact-right form{
+    width: 100%;
+}
+.input-information{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid #2d3436 ;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.input-information-left{
+    width: 45%;
+}
+.input-information-right{
+    width: 45%;
+}
+label{
+    font-size: 18px;
+    font-weight: 400;
+    color:#2d3436 ;
+    margin-bottom: 10px;
+
+}
+textarea{
+    width: 100%;
+    margin-top: 12px;
+}
+/* ----------end contact us-------- */
+/* -----footer------ */
+footer{
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    background-color: #0d0d0e;
+    margin-top: 200px;
+    padding-top: 30px;
+}
+footer h2{
+    color: white;
+    font-weight: 200;
+    padding-top: 20px;
+    font-size: 18px;
+}
+footer h1{
+    color:whitesmoke;
+    font-family: Comic Sans Ms;
+    font-size: 40px;
+}
+.footer-span{
+    color: tomato;
+}
