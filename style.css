@@ -10,6 +10,11 @@ body{
     width: 100%;
     height: 100%;
 }
+/* ------- display flex class------ */
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
 /* ------start hero section----- */
 .hero-section{
     display: flex;
@@ -59,7 +64,7 @@ body{
     
 }
 .button{
-    width: 150px;
+    width: 170px;
     height: 50px;
     display: block;
     background-color: tomato;
@@ -84,7 +89,7 @@ body{
 /* -------start mission section------ */
 .Mission{
     width: 100%;
-    height: 600px;
+    height: 700px;
     padding: 0px 100px 0px 100px;
 }
 .center{
@@ -128,7 +133,7 @@ body{
 .mossion-box-text{
     width: 100%;
     text-align: justify;
-    color: #636e72;
+    color: #2d3436;
 }
 .mission-box-grab{
     width: 100%;
@@ -139,3 +144,48 @@ body{
     border-radius: 5px;
 }
 /* -------end mission section------ */
+
+/* -------start develop section----- */
+.background-img{
+    background-image: url(image/shapes/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 510px;
+}
+.develop-section-left{
+    width: 45%;
+    
+}
+.develop-section-left-img{
+    width: 90%;
+}
+.develop-section-right{
+    width: 53%;
+   padding-top: 50px;
+}
+.develop-section-right-title{
+    font-size: 55px;
+    font-weight: 600;
+    color: #1e272e;
+}
+.develop-section-right-subtilte{
+    font-size: 60px;
+    font-weight: 600;
+    color: #1e272e;
+    padding-bottom: 20px;
+}
+.develop-button{
+    width: 300px;
+    height: 60px;
+    margin-top: 40px;
+}
+/* ---------End develop section---------- */
+
+/* --------start global section--------- */
+
+.global{
+    width: 600px;
+    width: 100%;
+    padding-top: 100px;
+}
+/* --------End global section--------- */
